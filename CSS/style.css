@@ -1,0 +1,151 @@
+/* you can change any of the default styles below 
+Darkest 2A2B2A
+Dark Grey 929087
+Middle F8F4E3
+Light Pink E3B7B6
+Pink Red E22856
+Fonts Quicksand and Montserrat
+*/
+
+p {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    background-color: darkslategray;
+    font-family: 'Nunito', sans-serif;
+    position: sticky;
+    box-shadow: 0rem 0rem .6rem .3rem #102542;
+    top: 0;
+}
+body {
+    background-color: #4682b4;
+    margin: 0;
+    min-height: 100%;
+}
+nav {
+    display: grid;
+    justify-content: space-between;
+    background-color: darkslategray;
+    grid-template-rows: 5rem;
+    grid-template-columns: 12rem repeat(6, 10%);
+    grid-template-areas: 
+        'title menu1 menu2 menu3 menu4 menu5 menu6';
+    padding-right: 2rem;
+}
+.title { /*apply the glow hover to all but title?*/
+    grid-area: title;
+    font-size: 3rem;
+    padding-top: .6rem;
+    text-align: center;
+    background-color: rgba(112, 128, 144, 0.308);
+}
+.menu1:hover {
+    border-radius: 30%;
+    box-shadow: 0rem 0rem 1.6rem .6rem #f5f5f530;
+    background-color: #f5f5f520;
+}
+.menu2:hover {
+    border-radius: 30%;
+    box-shadow: 0rem 0rem 1.6rem .6rem #f5f5f530;
+    background-color: #f5f5f520;
+}
+.menu3:hover {
+    border-radius: 30%;
+    box-shadow: 0rem 0rem 1.6rem .6rem #f5f5f530;
+    background-color: #f5f5f520;
+}
+.menu4:hover {
+    border-radius: 30%;
+    box-shadow: 0rem 0rem 1.6rem .6rem #f5f5f530;
+    background-color: #f5f5f520;
+}
+.menu5:hover {
+    border-radius: 30%;
+    box-shadow: 0rem 0rem 1.6rem .6rem #f5f5f530;
+    background-color: #f5f5f520;
+}
+.menu6:hover {
+    border-radius: 30%;
+    box-shadow: 0rem 0rem 1.6rem .6rem #f5f5f530;
+    background-color: #f5f5f520;
+} /* FIXME: NEED TO FIGURE THIS stuff OUT SO I CAN GET LESS LINES*/
+.menu1 {
+    grid-area: menu1;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.menu2 {
+    grid-area: menu2;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.menu3 {
+    grid-area: menu3;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.menu4 {
+    grid-area: menu4;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.menu5 {
+    grid-area: menu5;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: whitesmoke;
+}
+.menu6 {
+    grid-area: menu6;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: x-large;
+    color: whitesmoke;
+}   
+/* I need to figure out how to autoamtically shrink the images with the element :( */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f580;
+    margin-bottom: 1rem;
+    box-shadow: 0rem 0rem .6rem .3rem #f5f5f580;
+    padding: 5px;
+}
+.containervertical {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f580;
+    margin-bottom: 1rem;
+    box-shadow: 0rem 0rem .6rem .3rem #f5f5f580;
+    padding: 5px;
+    gap: 1rem;
+}
+
+.viewbox {
+    margin-top: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2rem;
+    min-height: 20rem;
+    background-color: #00ccb160;
+}
